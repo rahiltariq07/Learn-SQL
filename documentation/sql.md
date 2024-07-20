@@ -61,6 +61,6 @@ Select & View ALL columns
 
 SELECT * FROM students;
 
-```
+(* means ALL)
 
-- * means ALL
+```
