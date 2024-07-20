@@ -1,9 +1,9 @@
 # Learning SQL
 
 - [Introduction](#introduction)
-- [Keys]()
+- [Keys](#keys)
 
-### Introduction
+### INTRODUCTION
 
 ### 1. What is SQL?
 
@@ -47,7 +47,7 @@ CREATE TABLE students(
 
 CREATE DATABASE college;
 
-SHOW DATABASE;
+SHOW DATABASES;
 
 SHOW TABLES;
 
@@ -55,7 +55,7 @@ SHOW TABLES;
 
 ## 5. Table related Queries
 
-Select & View ALL columns
+- Select & View ALL columns
 
 ```SQL
 
@@ -64,3 +64,43 @@ SELECT * FROM students;
 (* means ALL)
 
 ```
+
+- Insert
+
+```SQL
+
+INSERT INTO students values(1,"Rahil Tariq", 22);
+
+```
+
+### KEYS
+
+## 1. Primary Key
+
+It is a column (or set of columns) in a table that uniquely identifies each row. (a unique id).
+
+There is only 1 PK & it should be NOT null.
+
+## 2. Foreign Key
+
+A foreign key is a column (or set of columns) in a table that refers to the primary key in another table.
+
+There can be multiple FK's.
+
+FK's can have duplicate & null values.
+
+- table1 - Student
+
+| ID | Name | Age | City |
+|----|------|-----|------|
+| 1 | Rahil | 22  | Srinagar |
+| 2 | Sahil | 27  | Pulwama  |
+| 3 | Aamir | 30  | Budgam   |
+
+- table2 - City
+
+| ID | City |
+|----|------|
+| 1 | Srinagar |
+| 2 | Pulwama  |
+| 3 | Budgam   |
