@@ -91,11 +91,11 @@ FK's can have duplicate & null values.
 
 - table1 - Student
 
-| ID | Name | Age | City |
-|----|------|-----|------|
-| 1 | Rahil | 22  | Srinagar |
-| 2 | Sahil | 27  | Pulwama  |
-| 3 | Aamir | 30  | Budgam   |
+| ID | Name | Age | City Id | City |
+|----|------|-----|---------|------|
+| 1 | Rahil | 22  | 1 | Srinagar |
+| 2 | Sahil | 27  | 2 | Pulwama  |
+| 3 | Aamir | 30  | 3 | Budgam   |
 
 - table2 - City
 
