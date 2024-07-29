@@ -99,8 +99,8 @@ FK's can have duplicate & null values.
 
 - table2 - City
 
-| ID | City |
-|----|------|
-| 1 | Srinagar |
-| 2 | Pulwama  |
-| 3 | Budgam   |
+| ID | City    |
+|----|---------|
+| 1  | Srinagar |
+| 2  | Pulwama  |
+| 3  | Budgam   |
