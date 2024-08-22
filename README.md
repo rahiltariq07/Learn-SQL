@@ -1,2 +1,2 @@
 # Learn-SQL
-Learning SQL from tutorials
+Learning SQL from tutorials.
