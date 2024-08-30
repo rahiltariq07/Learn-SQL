@@ -104,3 +104,88 @@ FK's can have duplicate & null values.
 | 1  | Srinagar |
 | 2  | Pulwama  |
 | 3  | Budgam   |
+
+### Clauses
+
+## 1. Where Clause
+
+To define some conditions
+
+```SQL
+
+SELECT * FROM students
+WHERE age>21;
+
+```
+
+## 2. Limit Clause
+
+Sets an upper limit on number of rows to be returned
+
+```SQL
+
+SELECT * FROM students LIMIT 3;
+
+```
+
+## 3. Order By Clause
+
+To sort the ascending (ASC) or descending order (DSC)
+
+```SQL
+
+SELECT * FROM students ORDER BY name ASC;
+
+```
+
+### Operators
+
+## 1. AND
+
+To check for both conditions to be true
+
+```SQL
+
+SELECT * FROM students WHERE age > 22 AND city = "Srinagar";
+
+```
+
+## 2. OR
+
+To check for one of the conditions to be true
+
+```SQL
+
+SELECT * FROM students WHERE age > 22 OR city = "Srinagar";
+
+```
+
+## 3. BETWEEN
+
+Selects for a given range
+
+```SQL
+
+SELECT * FROM students WHERE age BETWEEN 20 AND 23;
+
+```
+
+## 4. IN
+
+Matches any values in the list
+
+```SQL
+
+SELECT * FROM students WHERE city IN ("Srinagar", "Pulwama");
+
+```
+
+## 5. NOT
+
+To negate the given condition
+
+```SQL
+
+SELECT * FROM students WHERE city NOT IN ("Srinagar", "Pulwama");
+
+```
